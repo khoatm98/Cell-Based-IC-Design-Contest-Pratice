@@ -1,0 +1,78 @@
+*** Using c compiler gcc instead of cc ...
+                         Chronologic VCS (TM)
+         Version T-2022.06_Full64 -- Wed Sep 25 16:33:20 2024
+
+                    Copyright (c) 1991 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Parsing design file 'tb.sv'
+Parsing design file 'LASER.v'
+Top Level Modules:
+       testfixture
+TimeScale is 1 ns / 10 ps
+Starting vcs inline pass...
+
+1 module and 0 UDP read.
+recompiling module testfixture
+rm -f _cuarc*.so _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -shared  -Bsymbolic   -o .//../simv.daidir//_cuarc0.so objs/amcQw_d.o 
+rm -f _cuarc0.so
+if [ -x ../simv ]; then chmod a-x ../simv; fi
+g++  -o ../simv      -rdynamic  -Wl,-rpath='$ORIGIN'/simv.daidir -Wl,-rpath=./simv.daidir -Wl,-rpath=/usr/cad/synopsys/vcs/2022.06/linux64/lib -L/usr/cad/synopsys/vcs/2022.06/linux64/lib  -Wl,-rpath-link=./  /usr/lib64/libnuma.so.1     _180700_archive_1.so _prev_archive_1.so _cuarc0.so  SIM_l.o      rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o           -lvirsim -lerrorinf -lsnpsmalloc -lvfs    -lvcsnew -lsimprofile -luclinative /usr/cad/synopsys/vcs/2022.06/linux64/lib/vcs_tls.o   -Wl,-whole-archive  -lvcsucli    -Wl,-no-whole-archive        _vcs_pli_stub_.o   /usr/cad/synopsys/vcs/2022.06/linux64/lib/vcs_save_restore_new.o /usr/cad/synopsys/verdi/cur/share/PLI/VCS/LINUX64/pli.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2022
+Contains Synopsys proprietary information.
+Compiler version T-2022.06_Full64; Runtime version T-2022.06_Full64;  Sep 25 16:33 2024
+*******************************
+** Simulation Start          **
+*******************************
+== PATTERN img1.pattern
+---- Used Cycle:        590
+---- Get Return: C1(11,11),C2( 4,10)
+---- cover =  30, optimum =  30
+== PATTERN img2.pattern
+---- Used Cycle:        590
+---- Get Return: C1( 5,11),C2(11, 6)
+---- cover =  28, optimum =  28
+== PATTERN img3.pattern
+---- Used Cycle:        787
+---- Get Return: C1(10, 5),C2( 5,10)
+---- cover =  29, optimum =  29
+== PATTERN img4.pattern
+---- Used Cycle:        590
+---- Get Return: C1( 9, 6),C2( 3, 7)
+---- cover =  30, optimum =  30
+== PATTERN img5.pattern
+---- Used Cycle:        984
+---- Get Return: C1(10,11),C2( 4,10)
+---- cover =  23, optimum =  23
+== PATTERN img6.pattern
+---- Used Cycle:        787
+---- Get Return: C1(12, 2),C2(10, 7)
+---- cover =  30, optimum =  30
+
+*******************************
+**   Finish Simulation       **
+**   RUN CYCLE =       4583  **
+**   Cover total = 170/170   **
+*******************************
+$finish called from file "tb.sv", line 254.
+$finish at simulation time              3666000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 36660000 ps
+CPU Time:      0.460 seconds;       Data structure size:   0.1Mb
+Wed Sep 25 16:33:26 2024
+CPU time: .764 seconds to compile + .654 seconds to elab + .613 seconds to link + .522 seconds in simulation

@@ -1,0 +1,130 @@
+1        
+0 ./LASER_syn.sdf_c
+40
++access+r
++define+USECOLOR+SDF
++fsdb+mda
++fsdbfile+LASER.fsdb
++itf+/usr/cad/synopsys/vcs/2022.06/linux64/lib/vcsdp_lite.tab
++maxdelays
++vcs+fsdbon
++vcsd1
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/usr/cad/synopsys/vcs/2022.06/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /usr/cad/synopsys/vcs/2022.06/linux64/lib/libvirsim.so /usr/cad/synopsys/vcs/2022.06/linux64/lib/liberrorinf.so /usr/cad/synopsys/vcs/2022.06/linux64/lib/libsnpsmalloc.so /usr/cad/synopsys/vcs/2022.06/linux64/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/usr/cad/synopsys/vcs/2022.06/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=/usr/cad/synopsys/verdi/cur/share/PLI/VCS/LINUX64/pli.a -ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/usr/cad/synopsys/vcs/2022.06/include
+-Mxllcflags=
+-P
+-Xvcs_run_simv=1
+-debug_access
+-fsdb
+-full64
+-gen_obj
+-picarchive
+-sverilog
+-v
+/usr/cad/synopsys/vcs/2022.06/linux64/bin/vcs1
+/usr/cad/synopsys/verdi/cur/share/PLI/VCS/LINUX64/verdi.tab
+tb.sv
+LASER_syn.v
+/home/raid7_2/course/cvsd/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v
+69
+mraarch=linux_64
+installdir=/home/raid7_4/raid1_1/linux/synopsys/hspice/2022.06/hspice
+XLOCALEDIR=/usr/cad/synopsys/astro/cur/etc/locale
+XKEYSYMDB=/usr/cad/synopsys/astro/cur/etc/XKeysymDB
+XDG_SESSION_ID=18322
+XDG_RUNTIME_DIR=/run/user/1340
+VMR_MODE_FLAG=64
+VERPLEX_HOME=/usr/cad/cadence/CONFRML/cur
+VERDI_HOME=/usr/cad/synopsys/verdi/cur
+VENDOR=unknown
+VCS_PATHMAP_PRELOAD_DONE=1
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_HOME=/usr/cad/synopsys/vcs/2022.06/
+VCS_EXEC_DONE=1
+VCS_DEPTH=0
+VCS_CC=gcc
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOOL_HOME=/usr/cad/synopsys/vcs/2022.06/linux64
+TMIARCH=RH_64
+SYN_MAN_DIR=/usr/cad/synopsys/vcs/2022.06//doc/man
+SYNTHESIS=/usr/cad/synopsys/synthesis/cur
+SYNOPSYS_TMAX=/usr/cad/synopsys/tmax/cur
+SYNOPSYS_LC_ROOT=/usr/cad/synopsys/synthesis/cur
+SSH_TTY=/dev/pts/14
+SSH_CONNECTION=140.112.175.69 52639 140.112.20.70 22
+SSH_CLIENT=140.112.175.69 52639 22
+SPAPI_AHDL_INCLUDE=/home/raid7_4/raid1_1/linux/synopsys/hspice/2022.06/hspice/include
+SNPS_VCS_CLANG_PATH=/usr/cad/synopsys/vcs/2022.06//linux64/clang
+SNPS_PLATFORM=linux64
+SNPS_INTERNAL_VCS_LINUX_OS=linux
+SNPS_64=1
+SHLIB_PATH=/usr/spring_soft/verdi/cur/share/PLI/nc_xl/LINUX/xl_shared:/usr/spring_soft/verdi/cur/share/PLI/nc_xl/LINUX/nc_shared
+SELINUX_USE_CURRENT_RANGE=
+SELINUX_ROLE_REQUESTED=
+SELINUX_LEVEL_REQUESTED=
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+REMOTEHOST=xdn175o69.ee.ntu.edu.tw
+QT_GRAPHICSSYSTEM_CHECKED=1
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+OVA_UUM=0
+OSTYPE=linux
+OA_HOME=/usr/cad/innovus/cur/oa
+OAHOME=/usr/cad/cadence/oa_v22.04.073
+NEOCKTHOME=/usr/cad/cadence/NEOCIRCUIT/cur/tools/NeoCircuit
+MGC_TMPDIR=/tmp
+MGC_LOCATION_MAP=NO_MAP
+MGC_HOME=/usr/mentor/calibre/cur
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+HSP_SIGMA_AMP=/home/raid7_4/raid1_1/linux/synopsys/hspice/2022.06/hspice/linux64/python/AVA/ava
+HSP_HOME=/home/raid7_4/raid1_1/linux/synopsys/hspice/2022.06/hspice
+HSP_GCC_VERSION=9.2.0
+HSP_GCC=/home/raid7_4/raid1_1/linux/synopsys/hspice/2022.06/hspice/GNU/linux64/gcc/bin/gcc -m64 
+HOSTTYPE=x86_64-linux
+GROUP=user
+ENCOUNTER=/usr/cad/innovus/cur/tools/fe
+CMIARCH=RH_64
+CDS_Netlisting_Mode=Analog
+CDS_LOAD_ENV=CSF
+CDS_LIC_FILE=/usr/cad/cadence/IC/cur/share/license/license.dat
+CDPL_HOME=/home/raid7_4/raid1_1/linux/synopsys/hspice/2022.06/hspice/cdpl
+ASSURAHOME=/usr/cad/cadence/ASSURA/cur
+ARCH=linux64
+0
+0
+7
+1725948762 ./LASER_syn.sdf
+1608252293 /home/raid7_2/course/cvsd/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v
+1608252293 /home/raid7_2/course/cvsd/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v
+1725948762 LASER_syn.v
+1725948762 tb.sv
+1653825972 /usr/cad/synopsys/verdi/cur/share/PLI/VCS/LINUX64/verdi.tab
+1654052745 /usr/cad/synopsys/vcs/2022.06/linux64/lib/vcsdp_lite.tab
+4
+1654054205 /usr/cad/synopsys/vcs/2022.06/linux64/lib/libvirsim.so
+1654053585 /usr/cad/synopsys/vcs/2022.06/linux64/lib/liberrorinf.so
+1654053489 /usr/cad/synopsys/vcs/2022.06/linux64/lib/libsnpsmalloc.so
+1654053565 /usr/cad/synopsys/vcs/2022.06/linux64/lib/libvfs.so
+1727253411 simv.daidir
+-1 partitionlib
