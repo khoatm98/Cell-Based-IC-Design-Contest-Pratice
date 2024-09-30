@@ -1,7 +1,7 @@
 rc file Version 1.0
 
 [Design]
-COMPILE_PATH=/home/raid7_2/user12/r2k41036/IC-Contest/ICC_2023_pre_grad_LASER
+COMPILE_PATH=/home/raid7_2/user12/r2k41036/Cell-Based-IC-Design-Contest-Pratice/ICC_2023_pre_grad_LASER
 VCS_HOME=/usr/cad/synopsys/vcs/2022.06/
 VERDI_HOME=/usr/cad/synopsys/verdi/cur
 SystemC=FALSE

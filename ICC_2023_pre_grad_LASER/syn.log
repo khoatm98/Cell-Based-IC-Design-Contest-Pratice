@@ -1,0 +1,697 @@
+
+                           Design Compiler Graphical 
+                                 DC Ultra (TM)
+                                  DFTMAX (TM)
+                              Power Compiler (TM)
+                                 DesignWare (R)
+                                 DC Expert (TM)
+                               Design Vision (TM)
+                               HDL Compiler (TM)
+                               VHDL Compiler (TM)
+                                  DFT Compiler
+                               Design Compiler(R)
+
+                 Version U-2022.12 for linux64 - Nov 22, 2022 
+
+                    Copyright (c) 1988 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+Initializing...
+#Read All Files
+read_file -format verilog  LASER.v
+Loading db file '/usr/cad/synopsys/synthesis/cur/libraries/syn/gtech.db'
+Loading db file '/usr/cad/synopsys/synthesis/cur/libraries/syn/standard.sldb'
+  Loading link library 'gtech'
+Loading verilog file '/home/raid7_2/user12/r2k41036/Cell-Based-IC-Design-Contest-Pratice/ICC_2023_pre_grad_LASER/LASER.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Warning: Can't read link_library file 'your_library.db'. (UID-3)
+Compiling source file /home/raid7_2/user12/r2k41036/Cell-Based-IC-Design-Contest-Pratice/ICC_2023_pre_grad_LASER/LASER.v
+Warning:  /home/raid7_2/user12/r2k41036/Cell-Based-IC-Design-Contest-Pratice/ICC_2023_pre_grad_LASER/LASER.v:81: signed to unsigned conversion occurs. (VER-318)
+Warning:  /home/raid7_2/user12/r2k41036/Cell-Based-IC-Design-Contest-Pratice/ICC_2023_pre_grad_LASER/LASER.v:110: signed to unsigned conversion occurs. (VER-318)
+Warning:  /home/raid7_2/user12/r2k41036/Cell-Based-IC-Design-Contest-Pratice/ICC_2023_pre_grad_LASER/LASER.v:111: signed to unsigned assignment occurs. (VER-318)
+Warning:  /home/raid7_2/user12/r2k41036/Cell-Based-IC-Design-Contest-Pratice/ICC_2023_pre_grad_LASER/LASER.v:112: signed to unsigned conversion occurs. (VER-318)
+Warning:  /home/raid7_2/user12/r2k41036/Cell-Based-IC-Design-Contest-Pratice/ICC_2023_pre_grad_LASER/LASER.v:113: signed to unsigned assignment occurs. (VER-318)
+Warning:  /home/raid7_2/user12/r2k41036/Cell-Based-IC-Design-Contest-Pratice/ICC_2023_pre_grad_LASER/LASER.v:192: signed to unsigned conversion occurs. (VER-318)
+Warning:  /home/raid7_2/user12/r2k41036/Cell-Based-IC-Design-Contest-Pratice/ICC_2023_pre_grad_LASER/LASER.v:197: signed to unsigned conversion occurs. (VER-318)
+
+Statistics for case statements in always block at line 64 in file
+	'/home/raid7_2/user12/r2k41036/Cell-Based-IC-Design-Contest-Pratice/ICC_2023_pre_grad_LASER/LASER.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            65            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 78 in file
+	'/home/raid7_2/user12/r2k41036/Cell-Based-IC-Design-Contest-Pratice/ICC_2023_pre_grad_LASER/LASER.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            79            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 108 in file
+	'/home/raid7_2/user12/r2k41036/Cell-Based-IC-Design-Contest-Pratice/ICC_2023_pre_grad_LASER/LASER.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           109            |     no/auto      |
+===============================================
+$display output: ?
+
+Statistics for case statements in always block at line 134 in file
+	'/home/raid7_2/user12/r2k41036/Cell-Based-IC-Design-Contest-Pratice/ICC_2023_pre_grad_LASER/LASER.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           135            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine LASER line 64 in file
+		'/home/raid7_2/user12/r2k41036/Cell-Based-IC-Design-Contest-Pratice/ICC_2023_pre_grad_LASER/LASER.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+| points_list_c2_reg  | Flip-flop |  40   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine LASER line 78 in file
+		'/home/raid7_2/user12/r2k41036/Cell-Based-IC-Design-Contest-Pratice/ICC_2023_pre_grad_LASER/LASER.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   coverage_c2_reg   | Flip-flop |   6   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine LASER line 108 in file
+		'/home/raid7_2/user12/r2k41036/Cell-Based-IC-Design-Contest-Pratice/ICC_2023_pre_grad_LASER/LASER.v'.
+===========================================================================
+|    Register Name    | Type  | Width | Bus | MB | AR | AS | SR | SS | ST |
+===========================================================================
+|   next_state_reg    | Latch |   3   |  Y  | N  | N  | N  | -  | -  | -  |
+===========================================================================
+
+Inferred memory devices in process
+	in routine LASER line 119 in file
+		'/home/raid7_2/user12/r2k41036/Cell-Based-IC-Design-Contest-Pratice/ICC_2023_pre_grad_LASER/LASER.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   curr_state_reg    | Flip-flop |   3   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine LASER line 134 in file
+		'/home/raid7_2/user12/r2k41036/Cell-Based-IC-Design-Contest-Pratice/ICC_2023_pre_grad_LASER/LASER.v'.
+===================================================================================
+|      Register Name      |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===================================================================================
+|      C2Y_best_reg       | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+|     C1X_ready_r_reg     | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+|  coverage_c2_best_reg   | Flip-flop |   6   |  Y  | N  | N  | N  | N  | N  | N  |
+| points_list_c2_best_reg | Flip-flop |  40   |  Y  | N  | N  | N  | N  | N  | N  |
+|     C2Y_delay_r_reg     | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+|     C1Y_ready_r_reg     | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+|     C2Y_ready_r_reg     | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+|     C2X_ready_r_reg     | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+|     C2X_delay_r_reg     | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+|   points_list_c1_reg    | Flip-flop |  40   |  Y  | N  | N  | N  | N  | N  | N  |
+|      C2X_best_reg       | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===================================================================================
+
+Inferred memory devices in process
+	in routine LASER line 182 in file
+		'/home/raid7_2/user12/r2k41036/Cell-Based-IC-Design-Contest-Pratice/ICC_2023_pre_grad_LASER/LASER.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    input_cnt_reg    | Flip-flop |   9   |  Y  | N  | N  | N  | N  | N  | N  |
+|   acc_sum_cnt_reg   | Flip-flop |   6   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine LASER line 208 in file
+		'/home/raid7_2/user12/r2k41036/Cell-Based-IC-Design-Contest-Pratice/ICC_2023_pre_grad_LASER/LASER.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     x_list_reg      | Flip-flop |  160  |  Y  | N  | N  | N  | N  | N  | N  |
+|     y_list_reg      | Flip-flop |  160  |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/home/raid7_2/user12/r2k41036/Cell-Based-IC-Design-Contest-Pratice/ICC_2023_pre_grad_LASER/LASER.db:LASER'
+Loaded 1 design.
+Current design is 'LASER'.
+LASER
+#read_file -format sverilog  LASER.v
+current_design LASER
+Current design is 'LASER'.
+{LASER}
+set search_path      ". /home/raid7_2/course/cvsd/CBDK_IC_Contest/CIC/SynopsysDC/db $search_path ../ ./"
+. /home/raid7_2/course/cvsd/CBDK_IC_Contest/CIC/SynopsysDC/db . /usr/cad/synopsys/synthesis/cur/libraries/syn /usr/cad/synopsys/synthesis/cur/dw/syn_ver /usr/cad/synopsys/synthesis/cur/dw/sim_ver ../ ./
+set target_library   "slow.db                 \
+                     "
+slow.db                  
+set link_library     "* $target_library dw_foundation.sldb"
+* slow.db                   dw_foundation.sldb
+set symbol_library   "tsmc13.sdb generic.sdb"
+tsmc13.sdb generic.sdb
+set synthetic_library "dw_foundation.sldb"
+dw_foundation.sldb
+set default_schematic_options {-size infinite}
+-size infinite
+link
+Loading db file '/home/raid7_2/course/cvsd/CBDK_IC_Contest/CIC/SynopsysDC/db/slow.db'
+Loading db file '/usr/cad/synopsys/synthesis/cur/libraries/syn/dw_foundation.sldb'
+
+  Linking design 'LASER'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  LASER                       /home/raid7_2/user12/r2k41036/Cell-Based-IC-Design-Contest-Pratice/ICC_2023_pre_grad_LASER/LASER.db
+  slow (library)              /home/raid7_2/course/cvsd/CBDK_IC_Contest/CIC/SynopsysDC/db/slow.db
+  dw_foundation.sldb (library) /usr/cad/synopsys/synthesis/cur/libraries/syn/dw_foundation.sldb
+
+1
+#Setting Clock Constraints
+source -echo -verbose LASER.sdc
+# operating conditions and boundary conditions #
+set cycle 8.0
+8.0
+create_clock -name CLK  -period $cycle   [get_ports  CLK] 
+1
+set_dont_touch_network      [all_clocks]
+1
+set_fix_hold                [all_clocks]
+1
+set_clock_uncertainty  0.1  [all_clocks]
+1
+set_clock_latency      0.5  [all_clocks]
+1
+set_ideal_network           [get_ports CLK]
+1
+#Don't touch the basic env setting as below
+set_input_delay  1   -clock CLK [remove_from_collection [all_inputs] [get_ports CLK]] 
+1
+set_output_delay 1    -clock CLK [all_outputs]  
+1
+set_load         1   [all_outputs]
+1
+set_drive        0.1   [all_inputs]
+1
+set_operating_conditions -max_library slow -max slow
+Using operating conditions 'slow' found in library 'slow'.
+1
+set_wire_load_model -name tsmc13_wl10 -library slow                        
+1
+#set_max_fanout 20 [all_inputs]
+check_design
+ 
+****************************************
+check_design summary:
+Version:     U-2022.12
+Date:        Mon Sep 30 09:46:16 2024
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Cells                                                             205
+    Cells do not drive (LINT-1)                                   205
+--------------------------------------------------------------------------------
+
+Warning: In design 'LASER', cell 'B_298' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_299' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_300' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_301' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_302' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_303' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_304' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_305' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_306' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_307' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_308' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_309' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_310' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_311' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_312' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_313' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_314' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_315' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_316' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_317' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_318' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_319' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_320' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_321' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_322' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_323' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_324' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_325' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_326' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_327' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_328' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_329' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_330' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_331' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_332' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_333' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_334' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_335' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_336' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_337' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_338' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_339' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_340' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_341' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_342' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_343' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_344' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_345' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_346' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_347' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_348' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_349' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_350' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_351' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_352' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_353' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_354' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_355' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_356' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_357' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_358' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_359' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_360' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_361' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_362' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_363' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_364' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_365' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_366' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_367' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_368' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_369' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_370' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_371' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_372' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_373' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_374' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_375' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_376' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_377' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_378' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_379' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_380' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_381' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_382' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_383' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_384' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_385' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_386' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_387' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_388' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_389' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_390' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_391' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_392' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_393' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_394' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_395' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_396' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_397' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_398' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_399' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_400' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_401' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_402' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_403' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_404' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_405' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_406' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_407' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_408' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_409' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_410' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_411' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_412' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_413' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_414' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_415' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_416' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_417' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_418' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_419' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_420' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_421' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_422' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_423' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_424' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_425' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_426' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_427' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_428' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_429' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_430' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_431' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_432' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_433' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_434' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_435' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_436' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_437' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_438' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_439' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_440' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_441' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_442' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_443' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_444' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_445' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_446' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_447' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_448' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_449' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_450' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_451' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_452' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_453' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_454' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_455' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_456' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_457' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_458' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_459' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_460' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_461' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_462' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_463' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_464' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_465' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_466' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_467' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_468' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_469' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_470' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_471' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_472' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_473' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_474' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_475' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_476' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_477' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_478' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_479' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_480' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_481' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_482' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_483' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_484' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_485' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_486' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_487' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_488' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_489' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_490' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_491' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_492' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_493' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_494' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_495' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_496' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_497' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_498' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'B_534' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'C8390' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'C8394' does not drive any nets. (LINT-1)
+Warning: In design 'LASER', cell 'C8398' does not drive any nets. (LINT-1)
+1
+set high_fanout_net_threshold 0
+0
+uniquify
+1
+set_fix_multiple_port_nets -all -buffer_constants [get_designs *]
+1
+#set_max_area 0
+#Synthesis all design
+#compile -map_effort high -area_effort high
+#compile -map_effort high -area_effort high -inc
+compile_ultra
+Information: Performing power optimization. (PWR-850)
+Alib files are up-to-date.
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | U-2022.12-DWBB_202212.0 |     *     |
+| Licensed DW Building Blocks        | U-2022.12-DWBB_202212.0 |     *     |
+============================================================================
+
+====================================================================================================
+| Flow Information                                                                                 |
+----------------------------------------------------------------------------------------------------
+| Flow         | Design Compiler WLM                                                               |
+| Comand Line  | compile_ultra                                                                     |
+====================================================================================================
+| Design Information                                      | Value                                  |
+====================================================================================================
+| Number of Scenarios                                     | 0                                      |
+| Leaf Cell Count                                         | 4691                                   |
+| Number of User Hierarchies                              | 0                                      |
+| Sequential Cell Count                                   | 505                                    |
+| Macro Count                                             | 0                                      |
+| Number of Power Domains                                 | 0                                      |
+| Number of Path Groups                                   | 2                                      |
+| Number of VT Class                                      | 0                                      |
+| Number of Clocks                                        | 1                                      |
+| Number of Dont Touch Cells                              | 913                                    |
+| Number of Dont Touch Nets                               | 1                                      |
+| Number of Size Only Cells                               | 0                                      |
+| Design with UPF Data                                    | false                                  |
+----------------------------------------------------------------------------------------------------
+| Variables                                               | Value                                  |
+----------------------------------------------------------------------------------------------------
+| set_fix_multiple_port_nets                              | -all -buffer_constants                 |
+====================================================================================================
+Information: Sequential output inversion is enabled.  SVF file must be used for formal verification. (OPT-1208)
+
+Information: There are 205 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+  Simplifying Design 'LASER'
+
+Loaded alib file './alib-52/slow.db.alib'
+  Building model 'DW01_NAND2'
+Information: Ungrouping 0 of 1 hierarchies before Pass 1 (OPT-775)
+Information: State dependent leakage is now switched from on to off.
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'LASER'
+Information: Added key list 'DesignWare' to design 'LASER'. (DDB-72)
+ Implement Synthetic for 'LASER'.
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+Information: The library cell 'HOLDX1' in the library 'slow' is not characterized for internal power. (PWR-536)
+Information: The target library(s) contains cell(s), other than black boxes, that are not characterized for internal power. (PWR-24)
+
+  Beginning Mapping Optimizations  (Ultra High effort)
+  -------------------------------
+  Mapping Optimization (Phase 1)
+
+                                  TOTAL                                                            
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:00:21   53568.2      0.00      -0.0   13470.2                           49834660.0000      0.00  
+    0:00:21   53351.0      0.00       0.0   13470.2                           49741340.0000      0.00  
+
+  Beginning Constant Register Removal
+  -----------------------------------
+    0:00:21   53351.0      0.00       0.0   13470.2                           49741340.0000      0.00  
+    0:00:21   53351.0      0.00       0.0   13470.2                           49741340.0000      0.00  
+
+  Beginning Global Optimizations
+  ------------------------------
+  Numerical Synthesis (Phase 1)
+  Numerical Synthesis (Phase 2)
+  Global Optimization (Phase 1)
+  Global Optimization (Phase 2)
+  Global Optimization (Phase 3)
+  Global Optimization (Phase 4)
+  Global Optimization (Phase 5)
+  Global Optimization (Phase 6)
+  Global Optimization (Phase 7)
+  Global Optimization (Phase 8)
+  Global Optimization (Phase 9)
+  Global Optimization (Phase 10)
+  Global Optimization (Phase 11)
+  Global Optimization (Phase 12)
+  Global Optimization (Phase 13)
+  Global Optimization (Phase 14)
+  Global Optimization (Phase 15)
+  Global Optimization (Phase 16)
+  Global Optimization (Phase 17)
+  Global Optimization (Phase 18)
+  Global Optimization (Phase 19)
+  Global Optimization (Phase 20)
+  Global Optimization (Phase 21)
+  Global Optimization (Phase 22)
+  Global Optimization (Phase 23)
+  Global Optimization (Phase 24)
+  Global Optimization (Phase 25)
+  Global Optimization (Phase 26)
+  Global Optimization (Phase 27)
+  Global Optimization (Phase 28)
+  Global Optimization (Phase 29)
+  Global Optimization (Phase 30)
+  Global Optimization (Phase 31)
+
+  Beginning Isolate Ports
+  -----------------------
+
+  Beginning Delay Optimization
+  ----------------------------
+    0:00:23   36261.6      0.85       4.6   16944.2                           21097816.0000      0.00  
+    0:00:23   36487.3      0.00       0.0   16921.6                           21278656.0000      0.00  
+    0:00:23   36487.3      0.00       0.0   16921.6                           21278656.0000      0.00  
+    0:00:23   36485.6      0.00       0.0   16921.6                           21277400.0000      0.00  
+    0:00:23   36473.7      0.00       0.0   16919.3                           21271574.0000      0.00  
+    0:00:24   36473.7      0.00       0.0   16919.3                           21271574.0000      0.00  
+
+  Beginning WLM Backend Optimization
+  --------------------------------------
+    0:00:25   36154.6      0.00       0.0   16872.6                           20936768.0000      0.00  
+    0:00:25   36154.6      0.00       0.0   16872.6                           20936768.0000      0.00  
+    0:00:25   36154.6      0.00       0.0   16872.6                           20936768.0000      0.00  
+    0:00:25   36154.6      0.00       0.0   16872.6                           20794994.0000      0.00  
+    0:00:25   36154.6      0.00       0.0   16872.6                           20794994.0000      0.00  
+    0:00:25   36154.6      0.00       0.0   16872.6                           20794994.0000      0.00  
+    0:00:25   36154.6      0.00       0.0   16872.6                           20794994.0000      0.00  
+    0:00:25   36154.6      0.00       0.0   16872.6                           20794994.0000      0.00  
+    0:00:25   36154.6      0.00       0.0   16872.6                           20794994.0000      0.00  
+    0:00:25   36154.6      0.00       0.0   16872.6                           20794994.0000      0.00  
+    0:00:25   36154.6      0.00       0.0   16872.6                           20794994.0000      0.00  
+    0:00:25   36154.6      0.00       0.0   16872.6                           20794994.0000      0.00  
+    0:00:25   36154.6      0.00       0.0   16872.6                           20794994.0000      0.00  
+    0:00:25   36154.6      0.00       0.0   16872.6                           20794994.0000      0.00  
+    0:00:25   36154.6      0.00       0.0   16872.6                           20794994.0000      0.00  
+    0:00:25   36154.6      0.00       0.0   16872.6                           20794994.0000      0.00  
+    0:00:25   36154.6      0.00       0.0   16872.6                           20794994.0000      0.00  
+    0:00:25   36154.6      0.00       0.0   16872.6                           20794994.0000      0.00  
+    0:00:25   36154.6      0.00       0.0   16872.6                           20794994.0000      0.00  
+    0:00:25   36154.6      0.00       0.0   16872.6                           20794994.0000      0.00  
+    0:00:25   36154.6      0.00       0.0   16872.6                           20794994.0000      0.00  
+    0:00:25   36154.6      0.00       0.0   16872.6                           20794994.0000      0.00  
+
+
+  Beginning Design Rule Fixing  (max_transition)  (max_capacitance)
+  ----------------------------
+
+                                  TOTAL                                                            
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:00:25   36154.6      0.00       0.0   16872.6                           20794994.0000      0.00  
+  Global Optimization (Phase 32)
+  Global Optimization (Phase 33)
+  Global Optimization (Phase 34)
+    0:00:26   36672.3      0.00       0.0       0.0                           21260642.0000      0.00  
+    0:00:26   36672.3      0.00       0.0       0.0                           21260642.0000      0.00  
+
+
+  Beginning Leakage Power Optimization  (max_leakage_power 0)
+  ------------------------------------
+
+                                  TOTAL                                                            
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:00:26   36672.3      0.00       0.0       0.0                           21260642.0000      0.00  
+    0:00:26   36672.3      0.00       0.0       0.0                           21260642.0000      0.00  
+    0:00:26   36672.3      0.00       0.0       0.0                           21260642.0000      0.00  
+    0:00:26   36672.3      0.00       0.0       0.0                           21260642.0000      0.00  
+    0:00:26   36672.3      0.00       0.0       0.0                           21103864.0000      0.00  
+    0:00:26   36672.3      0.00       0.0       0.0                           21103864.0000      0.00  
+    0:00:26   36672.3      0.00       0.0       0.0                           21103864.0000      0.00  
+    0:00:26   36672.3      0.00       0.0       0.0                           21103864.0000      0.00  
+    0:00:26   36672.3      0.00       0.0       0.0                           21103864.0000      0.00  
+    0:00:26   36672.3      0.00       0.0       0.0                           21103864.0000      0.00  
+    0:00:26   36672.3      0.00       0.0       0.0                           21103864.0000      0.00  
+    0:00:26   36672.3      0.00       0.0       0.0                           21103864.0000      0.00  
+    0:00:26   36672.3      0.00       0.0       0.0                           21103864.0000      0.00  
+    0:00:26   36672.3      0.00       0.0       0.0                           21103864.0000      0.00  
+    0:00:26   36672.3      0.00       0.0       0.0                           21103864.0000      0.00  
+    0:00:26   36672.3      0.00       0.0       0.0                           21103864.0000      0.00  
+    0:00:26   36672.3      0.00       0.0       0.0                           21103864.0000      0.00  
+    0:00:26   36672.3      0.00       0.0       0.0                           21103864.0000      0.00  
+    0:00:26   36672.3      0.00       0.0       0.0                           21103864.0000      0.00  
+    0:00:26   36672.3      0.00       0.0       0.0                           21103864.0000      0.00  
+    0:00:26   36672.3      0.00       0.0       0.0                           21103864.0000      0.00  
+    0:00:26   36672.3      0.00       0.0       0.0                           21103864.0000      0.00  
+    0:00:26   36672.3      0.00       0.0       0.0                           21103864.0000      0.00  
+
+                                  TOTAL                                                            
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:00:26   36672.3      0.00       0.0       0.0                           21103864.0000      0.00  
+    0:00:26   36602.7      0.00       0.0       0.0                           20815010.0000      0.00  
+    0:00:26   36602.7      0.00       0.0       0.0                           20815010.0000      0.00  
+    0:00:26   36602.7      0.00       0.0       0.0                           20815010.0000      0.00  
+    0:00:27   36602.7      0.00       0.0       0.0                           20814172.0000      0.00  
+    0:00:27   36526.4      0.00       0.0       0.0                           20655754.0000      0.00  
+    0:00:27   36526.4      0.00       0.0       0.0                           20655754.0000      0.00  
+    0:00:27   36526.4      0.00       0.0       0.0                           20655754.0000      0.00  
+    0:00:27   36526.4      0.00       0.0       0.0                           20655754.0000      0.00  
+    0:00:27   36526.4      0.00       0.0       0.0                           20655754.0000      0.00  
+    0:00:27   36526.4      0.00       0.0       0.0                           20655754.0000      0.00  
+    0:00:27   36399.0      0.00       0.0       9.3                           20525990.0000      0.00  
+Loading db file '/home/raid7_2/course/cvsd/CBDK_IC_Contest/CIC/SynopsysDC/db/slow.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Information: State dependent leakage is now switched from off to on.
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+1
+write -format ddc     -hierarchy -output "LASER_syn.ddc"
+Writing ddc file 'LASER_syn.ddc'.
+1
+write_sdf -version 1.0  LASER_syn.sdf
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/home/raid7_2/user12/r2k41036/Cell-Based-IC-Design-Contest-Pratice/ICC_2023_pre_grad_LASER/LASER_syn.sdf'. (WT-3)
+Information: Updating design information... (UID-85)
+1
+write -format verilog -hierarchy -output LASER_syn.v
+Writing verilog file '/home/raid7_2/user12/r2k41036/Cell-Based-IC-Design-Contest-Pratice/ICC_2023_pre_grad_LASER/LASER_syn.v'.
+1
+report_area > area.log
+report_timing > timing.log
+report_qor   >  LASER_syn.qor
+exit
+Memory usage for this session 209 Mbytes.
+Memory usage for this session including child processes 233 Mbytes.
+CPU usage for this session 32 seconds ( 0.01 hours ).
+Elapsed time for this session 36 seconds ( 0.01 hours ).
+
+Thank you...

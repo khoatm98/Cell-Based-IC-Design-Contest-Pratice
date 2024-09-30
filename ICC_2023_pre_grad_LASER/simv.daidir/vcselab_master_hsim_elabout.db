@@ -1,8 +1,8 @@
 hsDirType                          	1
-fHsimDesignHasDebugNodes           	13
+fHsimDesignHasDebugNodes           	63
 fNSParam                           	1024
 fLargeSizeSdfTest                  	0
-fHsimDelayGateMbme                 	1
+fHsimDelayGateMbme                 	0
 fNoMergeDelays                     	0
 fHsimAllMtmPat                     	0
 fHsimCertRaptMode                  	0
@@ -50,7 +50,7 @@ fHsimNtbVl                         	0
 fHsimICTimeStamp                   	0
 fHsimICDiag                        	0
 fHsimNewCSDF                       	1
-vcselabIncrMode                    	1
+vcselabIncrMode                    	2
 fHsimMPPackDelay                   	0
 fHsimMultDriver                    	0
 fHsimPart                          	0
@@ -165,7 +165,7 @@ fHsimViWire                        	1
 fHsimPcCbOpt                       	1
 fHsimAmsTunneling                  	0
 fHsimAmsTunnelingDiag              	0
-fHsimScUpwardXmrNoSplit            	0
+fHsimScUpwardXmrNoSplit            	1
 fHsimOrigNdbViewOnly               	0
 fHsimVcsInterface                  	1
 fHsimVcsInterfaceAlias             	1
@@ -467,7 +467,7 @@ fHsimNewDebugOptMemDiag            	0
 hsGlobalVerboseLevel               	0
 fHsimTestPxpcode                   	0
 fHsimMdbVectorConstProp            	1
-fHsimEnableSeqUdpWrite             	0
+fHsimEnableSeqUdpWrite             	1
 fHsimDumpMDBOnlyForSeqUdp          	0
 fHsimInitRegRandom                 	0
 fHsimInitRegRandomVcs              	1
@@ -761,7 +761,7 @@ fHsimSchedMinput                   	0
 fHsimSchedSeqPrim                  	0
 fHsimSchedSelectFanout             	0
 fHsimSchedSelectFanoutDebug        	0
-fSpecifyInDesign                   	1
+fSpecifyInDesign                   	0
 fFgpDynamicReadOn                  	0
 fHsCgOptAllUc                      	0
 fHsimXmrRepl                       	0

@@ -1,0 +1,5 @@
+{"vcs1":{"timestamp_begin":1727264144.999944728, "rt":7.96, "ut":7.29, "st":0.29}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1727264143.842185781}
+{"VCS_COMP_START_TIME": 1727264143.842185781}
+{"VCS_COMP_END_TIME": 1727264154.166389954}
+{"VCS_USER_OPTIONS": "-full64 -R -sverilog tb.sv LASER.v +v2k -debug_access+all +define+P1+USECOLOR +vcs+fsdbon +fsdb+mda +fsdbfile+LASER.fsdb"}

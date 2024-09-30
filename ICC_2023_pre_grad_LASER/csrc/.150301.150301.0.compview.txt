@@ -1,0 +1,6 @@
+{"vcs1":{"timestamp_begin":1727342858.920092810, "rt":0.82, "ut":0.11, "st":0.06}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1727342857.856076903}
+{"VCS_COMP_START_TIME": 1727342857.856076903}
+{"VCS_COMP_END_TIME": 1727342859.926533259}
+{"VCS_USER_OPTIONS": "-full64 -R -sverilog tb.sv LASER.v +define+USECOLOR +access+r +vcs+fsdbon +fsdb+mda +fsdbfile+LASER.fsdb"}
+{"vcs1": {"peak_mem": 313396}}

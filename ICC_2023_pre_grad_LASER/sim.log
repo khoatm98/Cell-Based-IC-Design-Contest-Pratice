@@ -1,6 +1,6 @@
 *** Using c compiler gcc instead of cc ...
                          Chronologic VCS (TM)
-         Version T-2022.06_Full64 -- Wed Sep 25 16:33:20 2024
+         Version T-2022.06_Full64 -- Mon Sep 30 09:45:00 2024
 
                     Copyright (c) 1991 - 2022 Synopsys, Inc.
    This software and the associated documentation are proprietary to Synopsys,
@@ -31,48 +31,58 @@ rm -f _cuarc*.so _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
 ld -shared  -Bsymbolic   -o .//../simv.daidir//_cuarc0.so objs/amcQw_d.o 
 rm -f _cuarc0.so
 if [ -x ../simv ]; then chmod a-x ../simv; fi
-g++  -o ../simv      -rdynamic  -Wl,-rpath='$ORIGIN'/simv.daidir -Wl,-rpath=./simv.daidir -Wl,-rpath=/usr/cad/synopsys/vcs/2022.06/linux64/lib -L/usr/cad/synopsys/vcs/2022.06/linux64/lib  -Wl,-rpath-link=./  /usr/lib64/libnuma.so.1     _180700_archive_1.so _prev_archive_1.so _cuarc0.so  SIM_l.o      rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o           -lvirsim -lerrorinf -lsnpsmalloc -lvfs    -lvcsnew -lsimprofile -luclinative /usr/cad/synopsys/vcs/2022.06/linux64/lib/vcs_tls.o   -Wl,-whole-archive  -lvcsucli    -Wl,-no-whole-archive        _vcs_pli_stub_.o   /usr/cad/synopsys/vcs/2022.06/linux64/lib/vcs_save_restore_new.o /usr/cad/synopsys/verdi/cur/share/PLI/VCS/LINUX64/pli.a -ldl  -lc -lm -lpthread -ldl 
+g++  -o ../simv      -rdynamic  -Wl,-rpath='$ORIGIN'/simv.daidir -Wl,-rpath=./simv.daidir -Wl,-rpath=/usr/cad/synopsys/vcs/2022.06/linux64/lib -L/usr/cad/synopsys/vcs/2022.06/linux64/lib  -Wl,-rpath-link=./  /usr/lib64/libnuma.so.1     _259217_archive_1.so _prev_archive_1.so _cuarc0.so  SIM_l.o      rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o           -lvirsim -lerrorinf -lsnpsmalloc -lvfs    -lvcsnew -lsimprofile -luclinative /usr/cad/synopsys/vcs/2022.06/linux64/lib/vcs_tls.o   -Wl,-whole-archive  -lvcsucli    -Wl,-no-whole-archive        _vcs_pli_stub_.o   /usr/cad/synopsys/vcs/2022.06/linux64/lib/vcs_save_restore_new.o /usr/cad/synopsys/verdi/cur/share/PLI/VCS/LINUX64/pli.a -ldl  -lc -lm -lpthread -ldl 
 ../simv up to date
 Chronologic VCS simulator copyright 1991-2022
 Contains Synopsys proprietary information.
-Compiler version T-2022.06_Full64; Runtime version T-2022.06_Full64;  Sep 25 16:33 2024
+Compiler version T-2022.06_Full64; Runtime version T-2022.06_Full64;  Sep 30 09:45 2024
+*Verdi* Loading libsscore_vcs202206.so
+FSDB Dumper for VCS, Release Verdi_T-2022.06, Linux x86_64/64bit, 05/29/2022
+(C) 1996 - 2022 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file 'LASER.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : Enable +mda dumping.
+*Verdi* : End of traversing.
 *******************************
 ** Simulation Start          **
 *******************************
-== PATTERN img1.pattern
----- Used Cycle:        590
----- Get Return: C1(11,11),C2( 4,10)
----- cover =  30, optimum =  30
+ 0
+ 0
+ 0
+ 0
+ 0
 == PATTERN img2.pattern
----- Used Cycle:        590
+---- Used Cycle:      11529
 ---- Get Return: C1( 5,11),C2(11, 6)
 ---- cover =  28, optimum =  28
-== PATTERN img3.pattern
----- Used Cycle:        787
----- Get Return: C1(10, 5),C2( 5,10)
----- cover =  29, optimum =  29
-== PATTERN img4.pattern
----- Used Cycle:        590
----- Get Return: C1( 9, 6),C2( 3, 7)
----- cover =  30, optimum =  30
-== PATTERN img5.pattern
----- Used Cycle:        984
----- Get Return: C1(10,11),C2( 4,10)
----- cover =  23, optimum =  23
-== PATTERN img6.pattern
----- Used Cycle:        787
----- Get Return: C1(12, 2),C2(10, 7)
----- cover =  30, optimum =  30
+   0 1 2 3 4 5 6 7 8 9 a b c d e f
+ 0 - - - - - - - -[1;34m +[0m - - - - - - -
+ 1 - - - - - -[1;34m +[0m - - - - - - - - -
+ 2 - - - - - - -[1;34m +[0m - - - -[1;34m +[0m - - -
+ 3 -[1;34m +[0m - - - - - - - -[1;31m x[0m[1;31m x[0m - - - -
+ 4 - - -[1;34m +[0m - - -[1;34m +[0m[1;31m x[0m - - - -[1;31m x[0m - -
+ 5[1;34m +[0m - - - - - - - - -[1;31m x[0m - - - - -
+ 6 - - - - - - - - - - -[1;32m *[0m - - - -
+ 7 - -[1;34m +[0m - -[1;31m x[0m - -[1;31m x[0m - - - - -[1;31m x[0m -
+ 8 - - - -[1;31m x[0m - - -[1;31m x[0m[1;31m x[0m[1;31m x[0m[1;31m x[0m[1;31m x[0m - - -
+ 9 - -[1;31m x[0m[1;31m x[0m - - - - - - -[1;31m x[0m[1;31m x[0m - - -
+ a - - -[1;31m x[0m - - - - - - - - - - - -
+ b - - - -[1;31m x[0m[1;32m X[0m - -[1;31m x[0m - - - - - -[1;34m +[0m
+ c - -[1;31m x[0m - - -[1;31m x[0m[1;31m x[0m - - - - - - - -
+ d - - - - - -[1;31m x[0m[1;31m x[0m -[1;34m +[0m - - - - - -
+ e - -[1;34m +[0m -[1;31m x[0m - - - - - - - - - - -
+ f - - - - - - - - - - - - - - - -
 
 *******************************
 **   Finish Simulation       **
-**   RUN CYCLE =       4583  **
-**   Cover total = 170/170   **
+**   RUN CYCLE =      11574  **
+**   Cover total =  28/ 28   **
 *******************************
 $finish called from file "tb.sv", line 254.
-$finish at simulation time              3666000
+$finish at simulation time              9258800
            V C S   S i m u l a t i o n   R e p o r t 
-Time: 36660000 ps
-CPU Time:      0.460 seconds;       Data structure size:   0.1Mb
-Wed Sep 25 16:33:26 2024
-CPU time: .764 seconds to compile + .654 seconds to elab + .613 seconds to link + .522 seconds in simulation
+Time: 92588000 ps
+CPU Time:      0.610 seconds;       Data structure size:   0.2Mb
+Mon Sep 30 09:45:06 2024
+CPU time: 1.174 seconds to compile + .668 seconds to elab + .689 seconds to link + .686 seconds in simulation

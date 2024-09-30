@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1727530140.168457987, "rt":1.75, "ut":0.67, "st":0.31}}
+{"vcselab":{"timestamp_begin":1727530142.095266985, "rt":1.18, "ut":0.35, "st":0.24}}
+{"link":{"timestamp_begin":1727530143.418658220, "rt":0.56, "ut":0.22, "st":0.25}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1727530138.950242348}
+{"VCS_COMP_START_TIME": 1727530138.950242348}
+{"VCS_COMP_END_TIME": 1727530146.625023216}
+{"VCS_USER_OPTIONS": "-full64 -R -sverilog tb.sv LASER.v +v2k -debug_access+all +define+P2+USECOLOR +vcs+fsdbon +fsdb+mda +fsdbfile+LASER.fsdb"}
+{"vcs1": {"peak_mem": 335672}}
+{"stitch_vcselab": {"peak_mem": 231372}}

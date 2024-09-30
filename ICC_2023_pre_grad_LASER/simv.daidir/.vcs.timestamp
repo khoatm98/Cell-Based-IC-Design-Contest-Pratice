@@ -1,12 +1,10 @@
-1        
-0 ./LASER_syn.sdf_c
-40
-+access+r
-+define+USECOLOR+SDF
+0 
+38
++define+P2+USECOLOR
 +fsdb+mda
 +fsdbfile+LASER.fsdb
 +itf+/usr/cad/synopsys/vcs/2022.06/linux64/lib/vcsdp_lite.tab
-+maxdelays
++v2k
 +vcs+fsdbon
 +vcsd1
 +vpi
@@ -30,23 +28,22 @@
 -P
 -Xvcs_run_simv=1
 -debug_access
+-debug_access+all
 -fsdb
 -full64
 -gen_obj
 -picarchive
 -sverilog
--v
 /usr/cad/synopsys/vcs/2022.06/linux64/bin/vcs1
 /usr/cad/synopsys/verdi/cur/share/PLI/VCS/LINUX64/verdi.tab
 tb.sv
-LASER_syn.v
-/home/raid7_2/course/cvsd/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v
+LASER.v
 69
 mraarch=linux_64
 installdir=/home/raid7_4/raid1_1/linux/synopsys/hspice/2022.06/hspice
 XLOCALEDIR=/usr/cad/synopsys/astro/cur/etc/locale
 XKEYSYMDB=/usr/cad/synopsys/astro/cur/etc/XKeysymDB
-XDG_SESSION_ID=18322
+XDG_SESSION_ID=28121
 XDG_RUNTIME_DIR=/run/user/1340
 VMR_MODE_FLAG=64
 VERPLEX_HOME=/usr/cad/cadence/CONFRML/cur
@@ -68,9 +65,9 @@ SYN_MAN_DIR=/usr/cad/synopsys/vcs/2022.06//doc/man
 SYNTHESIS=/usr/cad/synopsys/synthesis/cur
 SYNOPSYS_TMAX=/usr/cad/synopsys/tmax/cur
 SYNOPSYS_LC_ROOT=/usr/cad/synopsys/synthesis/cur
-SSH_TTY=/dev/pts/14
-SSH_CONNECTION=140.112.175.69 52639 140.112.20.70 22
-SSH_CLIENT=140.112.175.69 52639 22
+SSH_TTY=/dev/pts/32
+SSH_CONNECTION=140.112.175.69 55800 140.112.20.70 22
+SSH_CLIENT=140.112.175.69 55800 22
 SPAPI_AHDL_INCLUDE=/home/raid7_4/raid1_1/linux/synopsys/hspice/2022.06/hspice/include
 SNPS_VCS_CLANG_PATH=/usr/cad/synopsys/vcs/2022.06//linux64/clang
 SNPS_PLATFORM=linux64
@@ -113,12 +110,9 @@ ASSURAHOME=/usr/cad/cadence/ASSURA/cur
 ARCH=linux64
 0
 0
-7
-1725948762 ./LASER_syn.sdf
-1608252293 /home/raid7_2/course/cvsd/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v
-1608252293 /home/raid7_2/course/cvsd/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v
-1725948762 LASER_syn.v
-1725948762 tb.sv
+4
+1727660697 LASER.v
+1727526460 tb.sv
 1653825972 /usr/cad/synopsys/verdi/cur/share/PLI/VCS/LINUX64/verdi.tab
 1654052745 /usr/cad/synopsys/vcs/2022.06/linux64/lib/vcsdp_lite.tab
 4
@@ -126,5 +120,5 @@ ARCH=linux64
 1654053585 /usr/cad/synopsys/vcs/2022.06/linux64/lib/liberrorinf.so
 1654053489 /usr/cad/synopsys/vcs/2022.06/linux64/lib/libsnpsmalloc.so
 1654053565 /usr/cad/synopsys/vcs/2022.06/linux64/lib/libvfs.so
-1727253411 simv.daidir
+1727660706 simv.daidir
 -1 partitionlib

@@ -1,15 +1,12 @@
 psSimBaseName                      	simv
 psLogFileName                      	NULL
-pDaiDir                            	/home/raid7_2/user12/r2k41036/IC-Contest/ICC_2023_pre_grad_LASER/simv.daidir
+pDaiDir                            	/home/raid7_2/user12/r2k41036/Cell-Based-IC-Design-Contest-Pratice/ICC_2023_pre_grad_LASER/simv.daidir
 destPath                           	csrc/
 fSharedMaster                      	0
 fHsimPCSharedLibSpecified          	0
-hsMainFileCount                    	1
-hsMtmSpecArr_i                     	3
-hsMainFileSuffixArr_i              	csdf1.MAIN
-hsAuxFileSuffixArr_i               	csdf1.AUX
-hsOriginalSdfFileArr_i             	./LASER_syn.sdf
-fHsMultiSdfDbg                     	0
+hsMainFileCount                    	0
+hsMainFileName                     	dummy
+hsAuxFileName                      	dummy
 partitionName                      	6	MASTER
 hsimInitRegValue                   	3
 fNSParam                           	1024
@@ -34,7 +31,7 @@ fHsimTaskFuncXmrsDbg               	0
 fHsimAllTaskFuncXmrs               	0
 fHsimDoXmrProcessing               	1
 fNoMergeDelays                     	0
-uGlblTimeUnit                      	4
+uGlblTimeUnit                      	5
 fHsimAllMtm                        	0
 fSimprofileNew                     	0
 fFsimFlag                          	0
@@ -63,7 +60,7 @@ fCcExConnDbReport                  	0
 fFsimForcelist                     	0
 fNewCBSemantics                    	1
 fSchedAtEnd                        	0
-fSpecifyInDesign                   	1
+fSpecifyInDesign                   	0
 fSvNettRealResType                 	0
 fFgpSched0User                     	0
 fFgpDynelabFix                     	1
@@ -100,7 +97,7 @@ fHsimNtbVl                         	0
 fHsimICTimeStamp                   	0
 fHsimICDiag                        	0
 fHsimNewCSDF                       	1
-vcselabIncrMode                    	1
+vcselabIncrMode                    	2
 fHsimMPPackDelay                   	0
 fHsimMultDriver                    	0
 fHsimPart                          	0
@@ -214,7 +211,7 @@ fHsimPcCbOpt                       	1
 fHsimAmsTunneling                  	0
 fHsimAmsTunnelingDiag              	0
 fHsimAmsNewDrs                     	0
-fHsimScUpwardXmrNoSplit            	0
+fHsimScUpwardXmrNoSplit            	1
 fHsimOrigNdbViewOnly               	0
 fHsimVcsInterface                  	1
 fHsimVcsInterfaceAlias             	1
@@ -373,7 +370,7 @@ fVpdDeltaCycleInDesign             	0
 fHsimAllowVecGateInVpd             	1
 fHsimAllowAllVecGateInVpd          	0
 fHsimAllowUdpInVpd                 	1
-fHsimAllowAlwaysCombInVpd          	0
+fHsimAllowAlwaysCombInVpd          	1
 fHsimAllowAlwaysCombCmpDvcSimv     	0
 fHsimAllowAlwaysCombDbg            	0
 fHsimMakeAllP2SPrimary             	0
@@ -462,7 +459,7 @@ fHsimStitchNew                     	0
 fHsimCbkOpt                        	1
 fFrcRelCbk                         	1
 fPulserrWarn                       	1
-hsMtmSpec                          	3
+hsMtmSpec                          	0
 fprofile                           	0
 fPreserveDaidir                    	1
 fElabGraphLevelize                 	0
@@ -561,7 +558,7 @@ fHsimOptMPDelayLoad                	0
 fHsimTransMPDelay                  	1
 fLargeSizeSdfTest                  	0
 fAllMtm                            	0
-fHsimDelayGateMbme                 	1
+fHsimDelayGateMbme                 	0
 fHsimDelayGateMbmeOld              	0
 fHsimNdb                           	1
 fHsimNdbDebug                      	0
@@ -639,8 +636,8 @@ dGblPeR                            	1.000000
 fNewdaidirpath                     	0
 fHsimDelayMbmeCheck                	4
 fHsimMdbPartInputLimit             	1
-fHsimSdfData                       	1
-fHsimDesignHasSdfAnnotation        	1
+fHsimSdfData                       	0
+fHsimDesignHasSdfAnnotation        	0
 fHsimDesignUsesParallelVcs         	0
 fHsimCMEnabled                     	0
 fHsimNotDelRefData                 	0
@@ -871,7 +868,7 @@ fHsimNewDebugOptMemDiag            	0
 hsGlobalVerboseLevel               	0
 fHsimTestPxpcode                   	0
 fHsimMdbVectorConstProp            	1
-fHsimEnableSeqUdpWrite             	0
+fHsimEnableSeqUdpWrite             	1
 fHsimDumpMDBOnlyForSeqUdp          	0
 fHsimInitRegRandom                 	0
 fHsimInitRegRandomVcs              	1

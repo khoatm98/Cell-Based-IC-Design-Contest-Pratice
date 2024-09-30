@@ -1,0 +1,65 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : LASER
+Version: U-2022.12
+Date   : Mon Sep 30 09:46:46 2024
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: acc_sum_cnt_reg[0]
+              (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: coverage_c2_reg[4]
+            (rising edge-triggered flip-flop clocked by CLK)
+  Path Group: CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  LASER              tsmc13_wl10           slow
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock CLK (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.50       0.50
+  acc_sum_cnt_reg[0]/CK (DFFQX1)                          0.00       0.50 r
+  acc_sum_cnt_reg[0]/Q (DFFQX1)                           0.94       1.44 r
+  U4548/Y (NOR2BX1)                                       0.94       2.38 r
+  U3814/Y (NAND2X4)                                       0.50       2.88 f
+  U4591/Y (OAI31XL)                                       0.64       3.51 r
+  U4592/Y (AOI211X1)                                      0.25       3.77 f
+  U4593/Y (OAI31X1)                                       0.26       4.02 r
+  DP_OP_786J1_162_3606/U8/ICO (CMPR42X1)                  0.52       4.55 r
+  U4569/Y (NAND2X1)                                       0.26       4.81 f
+  U3793/Y (OAI21X1)                                       0.34       5.15 r
+  U4571/Y (AOI2BB2X1)                                     0.31       5.45 f
+  U4572/Y (OAI2BB2X1)                                     0.64       6.09 r
+  U4573/Y (INVX3)                                         0.19       6.28 f
+  U4582/Y (AOI2BB2X1)                                     0.50       6.78 r
+  U4584/Y (OAI21X2)                                       0.25       7.02 f
+  U4412/Y (NOR2X2)                                        0.31       7.33 r
+  U4585/Y (NAND2X1)                                       0.34       7.68 f
+  U4586/Y (OAI211X1)                                      0.27       7.94 r
+  U3780/Y (CLKINVX1)                                      0.18       8.12 f
+  coverage_c2_reg[4]/D (DFFQX1)                           0.00       8.12 f
+  data arrival time                                                  8.12
+
+  clock CLK (rise edge)                                   8.00       8.00
+  clock network delay (ideal)                             0.50       8.50
+  clock uncertainty                                      -0.10       8.40
+  coverage_c2_reg[4]/CK (DFFQX1)                          0.00       8.40 r
+  library setup time                                     -0.28       8.12
+  data required time                                                 8.12
+  --------------------------------------------------------------------------
+  data required time                                                 8.12
+  data arrival time                                                 -8.12
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1

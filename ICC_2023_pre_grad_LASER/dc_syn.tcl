@@ -2,8 +2,17 @@
 read_file -format verilog  LASER.v
 #read_file -format sverilog  LASER.v
 current_design LASER
-link
 
+
+set search_path      ". /home/raid7_2/course/cvsd/CBDK_IC_Contest/CIC/SynopsysDC/db $search_path ../ ./"
+set target_library   "slow.db                 \
+                     "
+set link_library     "* $target_library dw_foundation.sldb"
+set symbol_library   "tsmc13.sdb generic.sdb"
+set synthetic_library "dw_foundation.sldb"
+set default_schematic_options {-size infinite}
+
+link
 #Setting Clock Constraints
 source -echo -verbose LASER.sdc
 check_design
@@ -22,3 +31,4 @@ write -format verilog -hierarchy -output LASER_syn.v
 report_area > area.log
 report_timing > timing.log
 report_qor   >  LASER_syn.qor
+exit

@@ -83,53 +83,50 @@ ANF: vhdi_enc_ist_get_module_id('simv: undefined symbol: vhdi_enc_ist_get_module
 ANF: vhdi_enc_def_get_handle_by_module_id('simv: undefined symbol: vhdi_enc_def_get_handle_by_module_id')
 VCS compile option:
  option[0]: simv
- option[1]: +define+USECOLOR+SDF
- option[2]: +access+r
+ option[1]: +v2k
+ option[2]: +define+P2+USECOLOR
  option[3]: +fsdb+mda
  option[4]: +fsdbfile+LASER.fsdb
- option[5]: +maxdelays
- option[6]: /usr/cad/synopsys/vcs/2022.06/linux64/bin/vcs1
- option[7]: -Mcc=gcc
- option[8]: -Mcplusplus=g++
- option[9]: -Masflags=
- option[10]: -Mcfl= -pipe -fPIC -O -I/usr/cad/synopsys/vcs/2022.06/include 
- option[11]: -Mxllcflags=
- option[12]: -Mxcflags= -pipe -fPIC -I/usr/cad/synopsys/vcs/2022.06/include
- option[13]: -Mldflags= -rdynamic 
- option[14]: -Mout=simv
- option[15]: -Mamsrun=
- option[16]: -Mvcsaceobjs=
- option[17]: -Mobjects= /usr/cad/synopsys/vcs/2022.06/linux64/lib/libvirsim.so /usr/cad/synopsys/vcs/2022.06/linux64/lib/liberrorinf.so /usr/cad/synopsys/vcs/2022.06/linux64/lib/libsnpsmalloc.so /usr/cad/synopsys/vcs/2022.06/linux64/lib/libvfs.so 
- option[18]: -Mexternalobj=
- option[19]: -Msaverestoreobj=/usr/cad/synopsys/vcs/2022.06/linux64/lib/vcs_save_restore_new.o
- option[20]: -Mcrt0=
- option[21]: -Mcrtn=
- option[22]: -Mcsrc=
- option[23]: -Msyslibs=/usr/cad/synopsys/verdi/cur/share/PLI/VCS/LINUX64/pli.a -ldl 
- option[24]: -Xvcs_run_simv=1
- option[25]: -full64
- option[26]: +define+USECOLOR+SDF
- option[27]: +access+r
- option[28]: -debug_access
- option[29]: +vpi
- option[30]: +vcsd1
- option[31]: +itf+/usr/cad/synopsys/vcs/2022.06/linux64/lib/vcsdp_lite.tab
+ option[5]: /usr/cad/synopsys/vcs/2022.06/linux64/bin/vcs1
+ option[6]: -Mcc=gcc
+ option[7]: -Mcplusplus=g++
+ option[8]: -Masflags=
+ option[9]: -Mcfl= -pipe -fPIC -O -I/usr/cad/synopsys/vcs/2022.06/include 
+ option[10]: -Mxllcflags=
+ option[11]: -Mxcflags= -pipe -fPIC -I/usr/cad/synopsys/vcs/2022.06/include
+ option[12]: -Mldflags= -rdynamic 
+ option[13]: -Mout=simv
+ option[14]: -Mamsrun=
+ option[15]: -Mvcsaceobjs=
+ option[16]: -Mobjects= /usr/cad/synopsys/vcs/2022.06/linux64/lib/libvirsim.so /usr/cad/synopsys/vcs/2022.06/linux64/lib/liberrorinf.so /usr/cad/synopsys/vcs/2022.06/linux64/lib/libsnpsmalloc.so /usr/cad/synopsys/vcs/2022.06/linux64/lib/libvfs.so 
+ option[17]: -Mexternalobj=
+ option[18]: -Msaverestoreobj=/usr/cad/synopsys/vcs/2022.06/linux64/lib/vcs_save_restore_new.o
+ option[19]: -Mcrt0=
+ option[20]: -Mcrtn=
+ option[21]: -Mcsrc=
+ option[22]: -Msyslibs=/usr/cad/synopsys/verdi/cur/share/PLI/VCS/LINUX64/pli.a -ldl 
+ option[23]: -Xvcs_run_simv=1
+ option[24]: -full64
+ option[25]: +v2k
+ option[26]: -debug_access+all
+ option[27]: +vpi
+ option[28]: +vcsd1
+ option[29]: +itf+/usr/cad/synopsys/vcs/2022.06/linux64/lib/vcsdp_lite.tab
+ option[30]: +define+P2+USECOLOR
+ option[31]: -debug_access
  option[32]: +vcs+fsdbon
  option[33]: +fsdb+mda
  option[34]: +fsdbfile+LASER.fsdb
- option[35]: +maxdelays
- option[36]: -picarchive
- option[37]: -P
- option[38]: /usr/cad/synopsys/verdi/cur/share/PLI/VCS/LINUX64/verdi.tab
- option[39]: -fsdb
- option[40]: -sverilog
- option[41]: -gen_obj
- option[42]: tb.sv
- option[43]: LASER_syn.v
- option[44]: -v
- option[45]: /home/raid7_2/course/cvsd/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v
- option[46]: -load
- option[47]: /usr/cad/synopsys/verdi/cur/share/PLI/VCS/LINUX64/libnovas.so:FSDBDumpCmd
+ option[35]: -picarchive
+ option[36]: -P
+ option[37]: /usr/cad/synopsys/verdi/cur/share/PLI/VCS/LINUX64/verdi.tab
+ option[38]: -fsdb
+ option[39]: -sverilog
+ option[40]: -gen_obj
+ option[41]: tb.sv
+ option[42]: LASER.v
+ option[43]: -load
+ option[44]: /usr/cad/synopsys/verdi/cur/share/PLI/VCS/LINUX64/libnovas.so:FSDBDumpCmd
 Chronologic Simulation VCS Release T-2022.06_Full64
 Linux 3.10.0-1160.el7.x86_64 #1 SMP Mon Oct 19 16:18:59 UTC 2020 x86_64
 CPU cores: 32
@@ -138,7 +135,7 @@ Limit information:
 cputime		unlimited
 filesize		unlimited
 datasize		unlimited
-stacksize		8193 kbytes
+stacksize		8196 kbytes
 coredumpsize		0 kbytes
 memoryuse		unlimited
 vmemoryuse		unlimited
@@ -153,7 +150,7 @@ REMOTEHOST=xdn175o69.ee.ntu.edu.tw
 SYNOPSYS_LC_ROOT=/usr/cad/synopsys/synthesis/cur
 MANPATH=/usr/cad/synopsys/synthesis/cur/doc/syn/man:/usr/cad/synopsys/vcs/2022.06//doc/man
 TMIARCH=RH_64
-XDG_SESSION_ID=18322
+XDG_SESSION_ID=28121
 SYNOPSYS_TMAX=/usr/cad/synopsys/tmax/cur
 XLOCALEDIR=/usr/cad/synopsys/astro/cur/etc/locale
 HOSTNAME=cad27
@@ -165,16 +162,16 @@ VCS_DEPTH=0
 HOST=cad27
 TERM=xterm
 SHELL=/bin/tcsh
-SSH_CLIENT=140.112.175.69 52639 22
+SSH_CLIENT=140.112.175.69 55800 22
 SELINUX_USE_CURRENT_RANGE=
 CDS_LOAD_ENV=CSF
 HSP_GCC_VERSION=9.2.0
 MGC_LOCATION_MAP=NO_MAP
 QTDIR=/usr/lib64/qt-3.3
 QTINC=/usr/lib64/qt-3.3/include
-SSH_TTY=/dev/pts/14
+SSH_TTY=/dev/pts/32
 LC_ALL=C
-SNPS_VCS_INTERNAL_ROOT_PID=186172
+SNPS_VCS_INTERNAL_ROOT_PID=258760
 SPAPI_AHDL_INCLUDE=/home/raid7_4/raid1_1/linux/synopsys/hspice/2022.06/hspice/include
 QT_GRAPHICSSYSTEM_CHECKED=1
 HSP_HOME=/home/raid7_4/raid1_1/linux/synopsys/hspice/2022.06/hspice
@@ -189,16 +186,16 @@ HOSTTYPE=x86_64-linux
 SNPS_VCS_CLANG_PATH=/usr/cad/synopsys/vcs/2022.06//linux64/clang
 ENCOUNTER=/usr/cad/innovus/cur/tools/fe
 SNPSLMD_LICENSE_FILE=26585@lshc
-VCS_USER_OPTIONS=-full64 -R -sverilog tb.sv LASER_syn.v +define+USECOLOR+SDF +access+r +vcs+fsdbon +fsdb+mda +fsdbfile+LASER.fsdb -v /home/raid7_2/course/cvsd/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v +maxdelays
+VCS_USER_OPTIONS=-full64 -R -sverilog tb.sv LASER.v +v2k -debug_access+all +define+P2+USECOLOR +vcs+fsdbon +fsdb+mda +fsdbfile+LASER.fsdb
 CMIARCH=RH_64
 OVA_UUM=0
 VCS_MODE_FLAG=64
 MAIL=/var/spool/mail/r2k41036
 PATH=.:/usr/cad/synopsys/vcs/2022.06//amd64/bin:/usr/cad/synopsys/spyglass/2022.06//SPYGLASS_HOME/bin:/usr/cad/cadence/ASSURA/cur/tools/assura/bin:/usr/cad/cadence/ASSURA/cur/tools/dsm/bin:/usr/cad/cadence/ASSURA/cur/tools/bin:/usr/cad/cadence/ASSURA/cur/tools/dfII/bin:/home/raid7_4/raid1_1/linux/synopsys/hspice/2022.06/hspice/bin:/home/raid7_4/raid1_1/linux/synopsys/hspice/2022.06/hspice/GNU/linux64/gcc/bin:/home/raid7_4/raid1_1/linux/synopsys/hspice/2022.06/hspice/linux64:/usr/bin:/usr/ucb/bin:/usr/cad/innovus/cur/tools/celtic/bin:/usr/cad/innovus/cur/tools/plato/bin:/usr/cad/innovus/cur/tools/dfII/bin:/usr/cad/innovus/cur/tools/bin:/usr/cad/innovus/cur//tools/tlfUtil/bin:/usr/cad/cadence/CONFRML/cur/./bin:/usr/cad/cadence/CONFRML/cur/tools/bin:/usr/mentor/calibre/cur/bin:/usr/cad/cadence/IC/cur/tools/dfII/bin:/usr/cad/cadence/IC/cur/tools/dracula/bin:/usr/cad/cadence/IC/cur/tools/bin:/usr/cad/synopsys/tmax/cur/bin:/usr/cad/synopsys/astro/cur/bin/AMD.64:/usr/spring_soft/verdi/cur/bin:/usr/spring_soft/verdi/cur/nLint/bin:/usr/cad/synopsys/primetime/2022.12/amd64/syn/bin:/usr/bin/X11:/usr/cad/synopsys/coreConsultant/cur/bin:/usr/cad/synopsys/synthesis/cur/amd64/syn/bin:/usr/cad/synopsys/lc/cur/bin:/usr/mentor/calibre/cur/bin:/usr/cad/synopsys/customexplorer/cur/bin:/usr/cad/cadence/SPECTRE/cur/tools/dfII/bin:/usr/cad/cadence/SPECTRE/cur/tools/bin:/usr/cad/cadence/STRATUS/cur/tools/bin:/usr/cad/cadence/JASPER/cur/bin:/usr/cad/cadence/EDI/cur/tools/celtic/bin:/usr/cad/cadence/EDI/cur/tools/plato/bin:/usr/cad/cadence/EDI/cur/tools/dfII/bin:/usr/cad/cadence/EDI/cur/tools/fe/bin:/usr/cad/cadence/EDI/cur/tools/cdsdoc/bin:/usr/cad/cadence/EDI/cur/tools/bin:/usr/cad/cadence/EDI/cur//tools/tlfUtil/bin:/usr/cad/cadence/RC/cur/tools/bin:/usr/cad/cadence/MMSIM/cur/tools/dfII/bin:/usr/cad/cadence/MMSIM/cur/tools/bin:/usr/cad/cadence/NEOCIRCUIT/cur/tools/NeoCircuit/bin:bin.linux:/usr/cad/cadence/SPB/cur/tools/specctra/bin:/usr/cad/cadence/SPB/cur/tools/pcb/bin:/usr/cad/cadence/SPB/cur/tools/dfII/bin:/usr/cad/cadence/SPB/cur/tools/bin:/usr/cad/cadence/INCISIV/cur/tools/bin:/usr/cad/cadence/INCISIV/cur/tools/vtools/vfault/bin:/usr/cad/cadence/INCISIV/cur/tools/dfII/bin:/usr/cad/cadence/IC/cur/tools/dfII/bin:/usr/cad/cadence/IC/cur/tools/dracula/bin:/usr/cad/cadence/IC/cur/tools/bin:/usr/cad/cadence/EXT/cur/tools/bin:/usr/cad/cadence/ETS/cur/tools/bin:/usr/cad/cadence/CONFRML/cur/./bin:/usr/cad/cadence/CONFRML/cur/tools/bin:/usr/cad/cadence/CCD/cur/tools/bin:/usr/cad/cadence/ASSURA/cur/tools/assura/bin:/usr/cad/cadence/ASSURA/cur/tools/dsm/bin:/usr/cad/cadence/ASSURA/cur/tools/bin:/usr/cad/cadence/ASSURA/cur/tools/dfII/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/raid7_4/raid1_1/linux/novas/verdi/cur/bin
-SNPS_VCS_INTERNAL_CURR_PID=186172
+SNPS_VCS_INTERNAL_CURR_PID=258760
 VERDI_HOME=/usr/cad/synopsys/verdi/cur
 OAHOME=/usr/cad/cadence/oa_v22.04.073
-PWD=/home/raid7_2/user12/r2k41036/IC-Contest/ICC_2023_pre_grad_LASER
+PWD=/home/raid7_2/user12/r2k41036/Cell-Based-IC-Design-Contest-Pratice/ICC_2023_pre_grad_LASER
 VCS_HOME=/usr/cad/synopsys/vcs/2022.06/
 SNPS_VCS_INTERNAL_MEMPRELOAD_USE_LIBC=1
 SNPS_INTERNAL_VCS_LINUX_OS=linux
@@ -212,7 +209,7 @@ VCS_CC=gcc
 CDS_Netlisting_Mode=Analog
 LM_LICENSE_FILE=26585@lstc:5280@lshc:5280@lstc:5280@lstn:1717@lstc:
 VCS_ARG_ADDED_FOR_TMP=1
-SNPS_VCS_TMPDIR=/tmp/vcs_20240925083642_186172
+SNPS_VCS_TMPDIR=/tmp/vcs_20240930014458_258760
 HSP_GCC=/home/raid7_4/raid1_1/linux/synopsys/hspice/2022.06/hspice/GNU/linux64/gcc/bin/gcc -m64 
 SHLVL=3
 HOME=/home/raid7_2/user12/r2k41036
@@ -227,24 +224,24 @@ VENDOR=unknown
 MACHTYPE=x86_64
 LOGNAME=r2k41036
 QTLIB=/usr/lib64/qt-3.3/lib
-SNPS_VCS_INTERNAL_ROOT_START_TIME=1727253402.414954099
+SNPS_VCS_INTERNAL_ROOT_START_TIME=1727660698.966445893
 NEOCKTHOME=/usr/cad/cadence/NEOCIRCUIT/cur/tools/NeoCircuit
-SSH_CONNECTION=140.112.175.69 52639 140.112.20.70 22
+SSH_CONNECTION=140.112.175.69 55800 140.112.20.70 22
 mraarch=linux_64
 CDS_LIC_FILE=/usr/cad/cadence/IC/cur/share/license/license.dat
 LESSOPEN=||/usr/bin/lesspipe.sh %s
 ARCH=linux64
 SHLIB_PATH=/usr/spring_soft/verdi/cur/share/PLI/nc_xl/LINUX/xl_shared:/usr/spring_soft/verdi/cur/share/PLI/nc_xl/LINUX/nc_shared
-sysc_uni_pwd=/home/raid7_2/user12/r2k41036/IC-Contest/ICC_2023_pre_grad_LASER
+sysc_uni_pwd=/home/raid7_2/user12/r2k41036/Cell-Based-IC-Design-Contest-Pratice/ICC_2023_pre_grad_LASER
 CDPL_HOME=/home/raid7_4/raid1_1/linux/synopsys/hspice/2022.06/hspice/cdpl
 XDG_RUNTIME_DIR=/run/user/1340
-DISPLAY=localhost:20.0
+DISPLAY=localhost:37.0
 VCS_ARCH=linux64
 SYN_MAN_DIR=/usr/cad/synopsys/vcs/2022.06//doc/man
 TOOL_HOME=/usr/cad/synopsys/vcs/2022.06/linux64
 ASSURAHOME=/usr/cad/cadence/ASSURA/cur
 _=./simv
-OLDPWD=/home/raid7_2/user12/r2k41036/IC-Contest/ICC_2023_pre_grad_LASER/simv.daidir/debug_dump/fsearch
+OLDPWD=/home/raid7_2/user12/r2k41036/Cell-Based-IC-Design-Contest-Pratice/ICC_2023_pre_grad_LASER/simv.daidir/debug_dump/fsearch
 VCS_PATHMAP_PRELOAD_DONE=1
 VCS_EXEC_DONE=1
 DVE=/usr/cad/synopsys/vcs/2022.06//gui/dve
@@ -252,87 +249,87 @@ SPECMAN_OUTPUT_TO_TTY=1
 FLEXLM_BORROWFILE=/home/raid7_2/user12/r2k41036/.cad27-borrow.txt
 Runtime command line arguments:
 argv[0]=simv
-argv[1]=+define+USECOLOR+SDF
-argv[2]=+access+r
+argv[1]=+v2k
+argv[2]=+define+P2+USECOLOR
 argv[3]=+fsdb+mda
 argv[4]=+fsdbfile+LASER.fsdb
-argv[5]=+maxdelays
-259 profile - 100
-          CPU/Mem usage: 0.090 sys,  0.330 user,  260.83M mem
-260 Elapsed time:    0:00:00    Wed Sep 25 16:36:49 2024
-261 User CPU time used: 0 seconds
-262 System CPU time used: 0 seconds
-263 pliAppInit
-264 [SC]Init: MemoryConsumed=0.00MB ElapsedTime=0hour 0min. 0sec.
-265 FSDB_GATE is set.
-266 FSDB_RTL is set.
-267 FSDB_ALIAS_ARRAY_ELEM is set to 4294967295.
-268 Enable Parallel Dumping.
-269 pliAppMiscSet: New Sim Round
-270 pliEntryInit
-271 LIBSSCORE=found /usr/cad/synopsys/verdi/cur/share/PLI/lib/LINUXAMD64/libsscore_vcs202206.so through $NOVAS_HOME setting.
-272 FSDB Dumper for VCS, Release Verdi_T-2022.06, Linux x86_64/64bit, 05/29/2022
-273 (C) 1996 - 2022 by Synopsys, Inc.
-274 DVDI_is_vir_unload_enabled is enable
-275 FSDB_VCS_ENABLE_NATIVE_VC is enable
-276 sps_call_fsdbDumpvars_vd_main at 0 : Unknown source file(0)
-277 *Verdi* : Create FSDB file 'LASER.fsdb'
-278 [spi_vcs_vd_ppi_create_root]: no upf option
-279 compile option from '/home/raid7_2/user12/r2k41036/IC-Contest/ICC_2023_pre_grad_LASER/simv.daidir/vcs_rebuild'.
-280   "vcs '-full64' '-R' '-sverilog' 'tb.sv' 'LASER_syn.v' '+define+USECOLOR+SDF' '+access+r' '+vcs+fsdbon' '+fsdb+mda' '+fsdbfile+LASER.fsdb' '-v' '/home/raid7_2/course/cvsd/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v' '+maxdelays' 2>&1"
-281 *Verdi* : Begin traversing the scopes, layer (0).
-282 *Verdi* : Enable +mda dumping.
-283 *Verdi* : End of traversing.
-284 pliAppHDL_DumpVarComplete traverse var: profile - 
-          CPU/Mem usage: 0.120 sys,  0.370 user,  360.69M mem
-                   incr: 0.010 sys,  0.030 user,  8.11M mem
-                   accu: 0.010 sys,  0.030 user,  8.11M mem
-              accu incr: 0.010 sys,  0.030 user,  8.11M mem
+255 profile - 100
+          CPU/Mem usage: 0.090 sys,  0.330 user,  266.98M mem
+256 Elapsed time:    0:00:01    Mon Sep 30 09:45:06 2024
+257 User CPU time used: 0 seconds
+258 System CPU time used: 0 seconds
+259 pliAppInit
+260 [SC]Init: MemoryConsumed=0.00MB ElapsedTime=0hour 0min. 0sec.
+261 FSDB_GATE is set.
+262 FSDB_RTL is set.
+263 FSDB_ALIAS_ARRAY_ELEM is set to 4294967295.
+264 Enable Parallel Dumping.
+265 pliAppMiscSet: New Sim Round
+266 pliEntryInit
+267 LIBSSCORE=found /usr/cad/synopsys/verdi/cur/share/PLI/lib/LINUXAMD64/libsscore_vcs202206.so through $NOVAS_HOME setting.
+268 FSDB Dumper for VCS, Release Verdi_T-2022.06, Linux x86_64/64bit, 05/29/2022
+269 (C) 1996 - 2022 by Synopsys, Inc.
+270 DVDI_is_vir_unload_enabled is enable
+271 FSDB_VCS_ENABLE_NATIVE_VC is enable
+272 sps_call_fsdbDumpvars_vd_main at 0 : Unknown source file(0)
+273 *Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+274 *Verdi* : Create FSDB file 'LASER.fsdb'
+275 [spi_vcs_vd_ppi_create_root]: no upf option
+276 compile option from '/home/raid7_2/user12/r2k41036/Cell-Based-IC-Design-Contest-Pratice/ICC_2023_pre_grad_LASER/simv.daidir/vcs_rebuild'.
+277   "vcs '-full64' '-R' '-sverilog' 'tb.sv' 'LASER.v' '+v2k' '-debug_access+all' '+define+P2+USECOLOR' '+vcs+fsdbon' '+fsdb+mda' '+fsdbfile+LASER.fsdb' 2>&1"
+278 *Verdi* : Begin traversing the scopes, layer (0).
+279 *Verdi* : Enable +mda dumping.
+280 *Verdi* : End of traversing.
+281 pliAppHDL_DumpVarComplete traverse var: profile - 
+          CPU/Mem usage: 0.120 sys,  0.340 user,  366.69M mem
+                   incr: 0.010 sys,  0.010 user,  7.97M mem
+                   accu: 0.010 sys,  0.010 user,  7.97M mem
+              accu incr: 0.010 sys,  0.010 user,  7.97M mem
 
-          Count usage: 2867 var,  3018 idcode,  2486 callback
-                 incr: 2867 var,  3018 idcode,  2486 callback
-                 accu: 2867 var,  3018 idcode,  2486 callback
-            accu incr: 2867 var,  3018 idcode,  2486 callback
-285 Elapsed time:    0:00:01    Wed Sep 25 16:36:50 2024
-286 User CPU time used: 0 seconds
-287 System CPU time used: 0 seconds
-288 pliAppHDL_DumpVarComplete: profile - 
-          CPU/Mem usage: 0.120 sys,  0.370 user,  361.74M mem
+          Count usage: 307 var,  307 idcode,  55 callback
+                 incr: 307 var,  307 idcode,  55 callback
+                 accu: 307 var,  307 idcode,  55 callback
+            accu incr: 307 var,  307 idcode,  55 callback
+282 Elapsed time:    0:00:01    Mon Sep 30 09:45:06 2024
+283 User CPU time used: 0 seconds
+284 System CPU time used: 0 seconds
+285 pliAppHDL_DumpVarComplete: profile - 
+          CPU/Mem usage: 0.120 sys,  0.340 user,  367.75M mem
                    incr: 0.000 sys,  0.000 user,  1.05M mem
-                   accu: 0.010 sys,  0.030 user,  9.17M mem
+                   accu: 0.010 sys,  0.010 user,  9.03M mem
               accu incr: 0.000 sys,  0.000 user,  1.05M mem
 
-          Count usage: 2867 var,  3018 idcode,  2486 callback
+          Count usage: 307 var,  307 idcode,  55 callback
                  incr: 0 var,  0 idcode,  0 callback
-                 accu: 2867 var,  3018 idcode,  2486 callback
+                 accu: 307 var,  307 idcode,  55 callback
             accu incr: 0 var,  0 idcode,  0 callback
-289 Elapsed time:    0:00:01    Wed Sep 25 16:36:50 2024
-290 User CPU time used: 0 seconds
-291 System CPU time used: 0 seconds
-292 End of simulation at 36660000
-293 Memory usage: 451.977 M
-294 Maximum resident set size: 172 MB
-295 Hard page faults: 0
-296 Soft page faults: 30276
-297 Elapsed time:    0:00:01    Wed Sep 25 16:36:50 2024
-298 User CPU time used: 1 seconds
-299 System CPU time used: 0 seconds
-300 Begin FSDB profile info:
-301 FSDB Writer : bc1(4835278) bcn(10971) mtf/stf(0/0)
-FSDB Writer elapsed time : flush(0.312815) io wait(0.000000) theadpool wait(0.000000)
+286 Elapsed time:    0:00:01    Mon Sep 30 09:45:06 2024
+287 User CPU time used: 0 seconds
+288 System CPU time used: 0 seconds
+289 End of simulation at 9258800
+290 Memory usage: 444.301 M
+291 Maximum resident set size: 103 MB
+292 Hard page faults: 0
+293 Soft page faults: 28827
+294 Elapsed time:    0:00:01    Mon Sep 30 09:45:06 2024
+295 User CPU time used: 0 seconds
+296 System CPU time used: 0 seconds
+297 Begin FSDB profile info:
+298 FSDB Writer : bc1(23153) bcn(315698) mtf/stf(0/0)
+FSDB Writer elapsed time : flush(0.063140) io wait(0.000000) theadpool wait(0.000000)
 FSDB Writer cpu time : MT Compression : 0
-302 End FSDB profile info
-303 FSDB closed. Name: LASER.fsdb Size: 1974897
-304 Parallel profile     - ProducerThread:1 ConsumerThread:1 Buffer:64MB
-305                      - BlockUsed:46 Acquire:7523688 BufferUsed:86549248
-306                      - Flush:2 Expand:0 ProducerWait:0 ConsumerWait:43
-307                      - MainProducerTime:1.723525388 TotalConsumerTime:0.599132111
-308                      - ElapsedTime:1.533585000
-309 Producer   0 profile - BlockUsed:46 Acquire:7523688 BufferUsed:86549248
-310 Consumer   0 profile - Affinity:-1 CPUTime:0.599132111 LifeTime:0.888289070 (0.67%)
-311                      - BlockUsed:46 Acquire:7523688 BufferUsed:86549248
-312 SimExit
-313 Elapsed time:    0:00:02    Wed Sep 25 16:36:51 2024
-314 User CPU time used: 2 seconds
-315 System CPU time used: 0 seconds
-316 Sim process exit
+299 End FSDB profile info
+300 FSDB closed. Name: LASER.fsdb Size: 26599
+301 Parallel profile     - ProducerThread:1 ConsumerThread:1 Buffer:64MB
+302                      - BlockUsed:4 Acquire:361752 BufferUsed:4399630
+303                      - Flush:2 Expand:0 ProducerWait:0 ConsumerWait:1
+304                      - MainProducerTime:0.583398465 TotalConsumerTime:0.037543912
+305                      - ElapsedTime:0.424528000
+306 Producer   0 profile - BlockUsed:4 Acquire:361752 BufferUsed:4399630
+307 Consumer   0 profile - Affinity:-1 CPUTime:0.037543912 LifeTime:0.050301277 (0.75%)
+308                      - BlockUsed:4 Acquire:361752 BufferUsed:4399630
+309 SimExit
+310 Elapsed time:    0:00:01    Mon Sep 30 09:45:06 2024
+311 User CPU time used: 0 seconds
+312 System CPU time used: 0 seconds
+313 Sim process exit
