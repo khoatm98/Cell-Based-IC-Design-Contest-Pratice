@@ -1,0 +1,5 @@
+{"vcs1":{"timestamp_begin":1747026927.788379794, "rt":0.66, "ut":0.08, "st":0.05}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1747026927.348379374}
+{"VCS_COMP_START_TIME": 1747026927.348379374}
+{"VCS_COMP_END_TIME": 1747026930.280344017}
+{"VCS_USER_OPTIONS": "-R -full64 -sverilog tb.v huffman.v +access+r +neg_tchk +vcs+fsdbon +maxdelays +fsdb+mda +fsdbfile+huffman.fsdb"}

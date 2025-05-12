@@ -1,0 +1,127 @@
+0
+38
++access+r
++fsdb+mda
++fsdbfile+huffman.fsdb
++itf+/usr/cad/synopsys/vcs/2023.12/linux64/lib/vcsdp_lite.tab
++maxdelays
++neg_tchk
++vcs+fsdbon
++vcsd1
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/usr/cad/synopsys/vcs/2023.12/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /usr/cad/synopsys/vcs/2023.12/linux64/lib/libvirsim.so /usr/cad/synopsys/vcs/2023.12/linux64/lib/liberrorinf.so /usr/cad/synopsys/vcs/2023.12/linux64/lib/libsnpsmalloc.so /usr/cad/synopsys/vcs/2023.12/linux64/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/usr/cad/synopsys/vcs/2023.12/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=/usr/cad/synopsys/verdi/2023.12/share/PLI/VCS/LINUX64/pli.a -ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/usr/cad/synopsys/vcs/2023.12/include
+-Mxllcflags=
+-P
+-Xvcs_run_simv=1
+-debug_access
+-fsdb
+-full64
+-gen_obj
+-picarchive
+-sverilog
+/usr/cad/synopsys/vcs/2023.12/linux64/bin/vcs1
+/usr/cad/synopsys/verdi/2023.12/share/PLI/VCS/LINUX64/verdi.tab
+tb.v
+huffman.v
+72
+_CE_M=
+_CE_CONDA=
+XILINX_VIVADO=/tools/Xilinx/Vivado/2024.1
+XILINX_HLS=/tools/Xilinx/Vitis_HLS/2024.1
+XDG_SESSION_TYPE=tty
+XDG_SESSION_ID=218
+XDG_SESSION_CLASS=user
+XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/
+VSCODE_IPC_HOOK_CLI=/run/user/1000/vscode-ipc-a58b9363-1d73-4c7a-831e-95fd54b4229e.sock
+VSCODE_GIT_IPC_HANDLE=/run/user/1000/vscode-git-a408ba34a9.sock
+VSCODE_GIT_ASKPASS_NODE=/home/dcs501/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node
+VSCODE_GIT_ASKPASS_MAIN=/home/dcs501/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass-main.js
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+VMR_MODE_FLAG=64
+VERDI_HOME=/usr/cad/synopsys/verdi/2023.12
+VENDOR=unknown
+VCS_STATIC_HOME=/usr/cad/synopsys/vcs/2023.12/vcfca
+VCS_PYTHON3=/usr/cad/synopsys/vcs/2023.12/linux64/bin/Python-3.6.1/bin/python3
+VCS_PATHMAP_PRELOAD_DONE=1
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_HOME=/usr/cad/synopsys/vcs/2023.12
+VCS_EXEC_DONE=1
+VCS_DEPTH=0
+VCS_CC=gcc
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH_OVERRIDE=linux
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOOL_HOME=/usr/cad/synopsys/vcs/2023.12/linux64
+TERM_PROGRAM_VERSION=1.85.2
+TERM_PROGRAM=vscode
+SYN_MAN_DIR=/usr/cad/synopsys/vcs/2023.12/doc/man
+SSH_CONNECTION=192.168.10.254 58024 192.168.10.11 6610
+SSH_CLIENT=192.168.10.254 58024 6610
+SNPS_VCS_PYTHON3=/usr/cad/synopsys/vcs/2023.12/linux64/bin/Python-3.6.1/bin/python3
+SNPS_VCS_CLANG_PATH=/usr/cad/synopsys/vcs/2023.12/linux64/clang
+SNPS_INTERNAL_VCS_LINUX_OS=ubuntu
+SHLIB_PATH=/usr/cad/synopsys/verdi/2023.12/etc/lib/libstdc++/LINUX64/:/usr/cad/synopsys/verdi/2023.12/share/PLI/lib/LINUX64/:/usr/cad/synopsys/verdi/2023.12/share/PLI/VCS/LINUX64/:
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+RISCV=/home/dcs501/riscv_install
+PAPERSIZE=a4
+OVA_UUM=0
+OSTYPE=linux
+MOTD_SHOWN=pam
+LIBVIRT_DEFAULT_URI=qemu:///system
+LESSOPEN=| /usr/bin/lesspipe %s
+LESSCLOSE=/usr/bin/lesspipe %s %s
+LC_TIME=lzh_TW
+LC_TELEPHONE=lzh_TW
+LC_PAPER=lzh_TW
+LC_NUMERIC=lzh_TW
+LC_NAME=lzh_TW
+LC_MONETARY=lzh_TW
+LC_MEASUREMENT=lzh_TW
+LC_IDENTIFICATION=lzh_TW
+LC_ALL=C
+LC_ADDRESS=lzh_TW
+HOSTTYPE=x86_64-linux
+GTK_THEME=Adwaita:dark
+GROUP=dcs501
+GIT_ASKPASS=/home/dcs501/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass.sh
+DEBUGINFOD_URLS=https://debuginfod.debian.net 
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+CONDA_SHLVL=0
+CONDA_PYTHON_EXE=/home/dcs501/miniconda3/bin/python
+CONDA_EXE=/home/dcs501/miniconda3/bin/conda
+COLORTERM=truecolor
+CHESSROOT=/usr/cad/synopsys/asip/cur
+CHESSDIR=/usr/cad/synopsys/asip/cur/linux64/chessdir
+CHECKERSDIR=/usr/cad/synopsys/asip/cur/linux64/chessdir/checkersdir
+0
+0
+4
+1746966892 huffman.v
+1746802721 tb.v
+1700048491 /usr/cad/synopsys/verdi/2023.12/share/PLI/VCS/LINUX64/verdi.tab
+1701102734 /usr/cad/synopsys/vcs/2023.12/linux64/lib/vcsdp_lite.tab
+4
+1701104330 /usr/cad/synopsys/vcs/2023.12/linux64/lib/libvirsim.so
+1701103518 /usr/cad/synopsys/vcs/2023.12/linux64/lib/liberrorinf.so
+1701103440 /usr/cad/synopsys/vcs/2023.12/linux64/lib/libsnpsmalloc.so
+1701103511 /usr/cad/synopsys/vcs/2023.12/linux64/lib/libvfs.so
+1746966906 simv.daidir
+-1 partitionlib
