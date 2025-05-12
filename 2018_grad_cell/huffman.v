@@ -26,7 +26,7 @@ parameter [2:0] LOAD    = 2'd0,
                 END     = 2'd3;
 
 always @(*) begin
-    CNT1 = CNT[1]; CNT2 = CNT[2]; CNT3 = CNT[3]; CNT4 = CNT[4]; CNT5 = CNT[5]; CNT6 = CNT[6]; //轉換成陣列方便操作
+    CNT1 = CNT[1]; CNT2 = CNT[2]; CNT3 = CNT[3]; CNT4 = CNT[4]; CNT5 = CNT[5]; CNT6 = CNT[6]; 
     HC1 = HC[1] >> (8'd8 - M[1]); HC2 = HC[2] >> (8'd8 - M[2]); HC3 = HC[3] >> (8'd8 - M[3]);
     HC4 = HC[4] >> (8'd8 - M[4]); HC5 = HC[5] >> (8'd8 - M[5]); HC6 = HC[6] >> (8'd8 - M[6]);
     M1 = 8'd255 >> (8'd8 - M[1]); M2 = 8'd255 >> (8'd8 - M[2]); M3 = 8'd255 >> (8'd8 - M[3]);
